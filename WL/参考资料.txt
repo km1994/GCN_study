@@ -1,0 +1,5 @@
+Higher-order Graph Neural Networks：https://www.jiqizhixin.com/articles/2019-02-26-7
+
+《Graph learning》| 图传播算法（下）：https://mp.weixin.qq.com/s?__biz=MzI2MDE5MTQxNg==&mid=2649687879&idx=1&sn=5b622fae52428b65c45e2d8433222723&chksm=f276c290c5014b86170f54e0732e6563ec99e9c4368ddd6f2c0f1d38e44aa1725a74d496ec11&scene=21#wechat_redirect
+
+WL算法，参考资料是 Semi-supervised classification with graph convolutional networks 的附录A
