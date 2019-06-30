@@ -141,8 +141,11 @@ plt.show()
 #### 4.4.1 节点特征分配
 
 > 方法介绍：
+> 
 > 1、g.ndata['x']：特征初始化；
+> 
 > 2、g.nodes[index]：访问 graph 中的任意节点；
+> 
 > 3、g.nodes[index].data['x']：访问 graph 中索引为 index 的 node 的特征向量
 
 以下代码，我们将为每一个节点分配一个 len 为 3 的向量。
@@ -187,8 +190,11 @@ g.nodes[th.tensor([0, 1, 2])].data['x'] = th.zeros(3, 3)
 分配边缘特征的方式与节点特征的方式类似，只是可以通过指定边缘的端点来完成。
 
 > 方法介绍：
+> 
 > 1、g.edata['w']：特征初始化；
+> 
 > 2、g.edges[index]：访问 graph 中的任意边；
+> 
 > 3、g.edges[index].data['w']：访问 graph 中索引为 index 的 edges 的特征向量
 
 ```python
