@@ -8,7 +8,7 @@ Graph 的相似性问题是指判断给定两个 Graph 是否同构。Weisfeiler
 
 ### 2.1 动机
 
- Graph 的相似性问题是指判断给定两个 Graph 是否同构。为解决该问题，需要选择一种有效计算节点独立性（Identifaction）。理想情况下， Graph 结构数据的神经网络模型应该能够学习 Graph 中节点独立性（Identifaction），同时，考虑节点的 Graph 特征信息（attribute）和结构信息（structure）。本文采用 Weisfeiler-Leman 算法来衡量 Graph 中节点间独立性（Identifaction），以构建 Graph 的独立性（Identifaction）的节点集合。最后，通过将两个 Graph 的相似度问题转化为两个 Graph 的独立性（Identifaction）的节点集合的 Jaccard 相似度问题。
+ Graph 的相似性问题是指判断给定两个 Graph 是否同构。为解决该问题，需要选择一种有效计算节点独立性（Identifaction）的方法。理想情况下， Graph 结构数据的神经网络模型应该能够学习 Graph 中节点独立性（Identifaction），同时，考虑节点的 Graph 特征信息（attribute）和结构信息（structure）。本文采用 Weisfeiler-Leman 算法来衡量 Graph 中节点间独立性（Identifaction），以构建 Graph 的独立性（Identifaction）的节点集合。最后，通过将两个 Graph 的相似度问题转化为两个 Graph 的独立性（Identifaction）的节点集合的 Jaccard 相似度问题。
 
 ### 2.2 Weisfeiler-Leman 算法思路
 
