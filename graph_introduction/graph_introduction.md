@@ -72,7 +72,9 @@ $\mathcal{V}=\{v_{i} | i=1, \ldots, N\}$ 表示顶点或节点。$\mathcal{E}=\{
 
 邻接矩阵是一个元素为bool值或权值的$V*V$矩阵，该矩阵的定义如下：
 
-$A \in \mathbb{R}^{N \times N}, A_{i j}=\left\{\begin{array}{cc}{a_{i j} \neq 0} & {e_{i j} \in \mathcal{E}} \\ {0,} & {\text { otherwise }}\end{array}\right.$
+$$
+A \in \mathbb{R}^{N \times N}, A_{i j}=\left\{\begin{array}{cc}{a_{i j} \neq 0} & {e_{i j} \in \mathcal{E}} \\ {0,} & {\text { otherwise }}\end{array}\right.
+$$
 
 若图中存在一条连接顶点$V$和$V$的边$e_{i j}$，则$a_{i j} \neq 0$,否则为0。占用的空间为$V*V$，当图是稠密时，邻接矩阵是比较合适的表达方法。如下图所示：
 
