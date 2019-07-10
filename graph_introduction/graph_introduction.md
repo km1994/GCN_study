@@ -64,7 +64,7 @@
 
 > 一个有标号的简单图，点集V={1,2,3,4,5,6}，边集E={{1,2},{1,5},{2,3},{2,5},{3,4},{4,5},{4,6}}
 
-$\mathcal{V}=\left\{v_{i} | i=1, \ldots, N\right\}$ 表示顶点或节点。$\mathcal{E}=\left\{e_{i j} | v_{i}, v_{j} \in \mathcal{V}\right\},\|\mathcal{E}\| \leq N^{2}$ 表示顶点与顶点之间所连接的边；
+$\mathcal{V}=\{v_{i} | i=1, \ldots, N\}$ 表示顶点或节点。$\mathcal{E}=\{e_{i j} | v_{i}, v_{j} \in \mathcal{V}\},\|\mathcal{E}\| \leq N^{2}$ 表示顶点与顶点之间所连接的边；
 
 ### 3、图（Graph）的表示形式
 
